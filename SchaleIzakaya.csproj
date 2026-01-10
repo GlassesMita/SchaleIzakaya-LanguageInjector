@@ -88,4 +88,10 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
+
+  <!-- 复制翻译文件到输出目录 -->
+  <ItemGroup>
+    <None Include="TranslationFiles\**\*" CopyToOutputDirectory="PreserveNewest" LinkBase="TranslationFiles\" />
+  </ItemGroup>
+
 </Project>
