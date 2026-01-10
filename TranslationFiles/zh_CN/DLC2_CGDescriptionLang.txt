@@ -1,0 +1,6 @@
+ID	Name	Description
+DLC2_Main_0_FormerHell	初见旧地狱街道	空
+DLC2_Main_2_Winner	怪诞料理挑战赛落幕纪念	空	
+DLC2_Concert_FormerHellGuest	旧都应援团	空
+DLC2_Concert_EarthSpiritPalaceGuest	地灵殿应援团	空
+DLC2_ConcertFinished	古城清幽、人生悠然	空

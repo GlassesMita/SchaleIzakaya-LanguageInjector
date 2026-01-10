@@ -1,0 +1,7 @@
+ID	Name	Description
+DLC1_Main_1_Kappa	神秘的河童工厂	空
+DLC1_Main_1_Oil	突然冒出的黑水！？	空
+DLC1_Main_1_StrangeTree	魔界之花	空
+DLC1_Concert_YoukaiMountain	妖怪之山应援团	空
+DLC1_Concert_MagicForest	魔法森林应援团	空
+DLC1_ConcertFinished	未知的色彩	空

@@ -1,0 +1,9 @@
+ID	NAME	ORIGINAL	COMPOSEER
+Extra_1	再次来到紫樱树下	もう歌しか聞こえない / 門前の妖怪小娘	Rayven\n缨Ei & 琉芸Miruku
+Extra_2	四季轮转	もう歌しか聞こえない / 門前の妖怪小娘	Rayven\n缨Ei & 琉芸Miruku
+LostPhantasia	LOSTPHANTASIA	少女綺想曲～Dream Battle / 恋色マスタースパーク\n永夜の報い～Imperishable Night	岸田教団 & THE明星ロケッツ X 草野華余子
+ELC1	未知的色彩	神々が恋した幻想郷 / 稲田姫様に叱られるから / 少女が見た日本の原風景	术晴\n缨Ei
+ELC2	古城清幽、人生悠然	旧地獄街道を行く / ハートフェルトファンシー	Rayven\n缨Ei
+ELC3	幻食朦胧、音符飘游	感情の摩天楼～CosmicMind / 聖徳伝説～True Administrator	Rayven\n缨Ei
+ELC4	忘我陶醉、喜怒哀乐	U.N.オーエンは彼女なのか？	Rayven\n缨Ei
+ELC5	凝梦歌	不思議の国のアリス / 向こう側の月	zayze_\n缨Ei

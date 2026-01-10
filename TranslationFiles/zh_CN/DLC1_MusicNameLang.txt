@@ -1,0 +1,8 @@
+ID	NAME	ORIGINAL	COMPOSEER
+YoukaiMountain_1	妖怪之山-初见方园	少女が見た日本の原風景	残实
+YoukaiMountain_2	妖怪之山-临风对月	少女が見た日本の原風景	残实
+YoukaiMountain_3	妖怪之山-一览众小	少女が見た日本の原風景	残实
+MagicForest_1	魔法之森-孤芳自赏	星の器 ~ Casket of Star / 恋色マスタースパーク	Hannari
+MagicForest_2	魔法之森-花鸟庭园	星の器 ~ Casket of Star / トロヤ群の密林\n可愛い大戦争のリフレーン	Hannari
+MagicForest_3	魔法之森-闲适静谧	星の器 ~ Casket of Star	Hannari
+BloodPondHell	血池地狱-吞天噬地	水没した沈愁地獄	琳

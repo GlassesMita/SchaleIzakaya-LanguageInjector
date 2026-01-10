@@ -1,0 +1,11 @@
+ID	NAME	ORIGINAL	COMPOSEER
+GardenOfTheSun_1	太阳花田-一叶入梦	幽梦 & 眠れる恐怖	Hannari
+GardenOfTheSun_2	太阳花田-花团锦簇	幽梦 & 眠れる恐怖	Hannari
+GardenOfTheSun_3	太阳花田-金色交响	幽梦 & 眠れる恐怖	Hannari
+ShiningNeedleCastle_1	辉针城-悠然来声	針小棒大の天守閣 & リバースイデオロギー	残实
+ShiningNeedleCastle_2	辉针城-回转加速	針小棒大の天守閣 & リバースイデオロギー	残实
+ShiningNeedleCastle_3	辉针城-无垠狂飙	針小棒大の天守閣 & リバースイデオロギー	残实
+Flandre_1	抓鬼比赛-吾令徐徐春风!吹散无尽幽暗!其一	 U.N.オーエンは彼女なのか？&魔法少女達の百年祭	Hannari
+Flandre_2	抓鬼比赛-吾令徐徐春风!吹散无尽幽暗!其二	 U.N.オーエンは彼女なのか？&魔法少女達の百年祭	Hannari
+Flandre_3	抓鬼比赛-吾令徐徐春风!吹散无尽幽暗!其三	 U.N.オーエンは彼女なのか？&魔法少女達の百年祭	Hannari
+MystiaVSFlandre	徐徐春风!吹散幽暗!	 U.N.オーエンは彼女なのか？&魔法少女達の百年祭	Hannari

@@ -1,0 +1,9 @@
+ID	Name	Description
+DLC3_Mamizou	百变狸猫	空
+DLC3_Mystia_1	大获全胜·米斯蒂娅·其一	空
+DLC3_Mystia_2	大获全胜·米斯蒂娅·其二	空
+DLC3_Kyoukou_1	大获全胜·响子·其一	空
+DLC3_Kyoukou_2	大获全胜·响子·其二	空
+DLC3_Concert_MyourenTemple	命莲寺应援团	空
+DLC3_Concert_DivineSpiritMausoleum	神灵庙应援团	空
+DLC3_ConcertFinished	幻食朦胧、音符飘游	空

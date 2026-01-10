@@ -1,0 +1,8 @@
+ID	Name	Description
+DLC4_Seija	不良军团	空
+DLC4_Seija_2	不良招募海报	空
+DLC4_Yuka	四季的花之主	空
+DLC4_Mystia	最后的四重存在	空
+DLC4_Concert_GardenOfTheSun	花田应援团	空
+DLC4_Concert_ShiningNeedleCastle	辉针城应援团	空
+DLC4_ConcertFinished	忘我陶醉、喜怒哀乐	空

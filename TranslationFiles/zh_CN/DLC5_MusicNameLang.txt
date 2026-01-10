@@ -1,0 +1,9 @@
+ID	NAME	ORIGINAL	COMPOSEER
+Makai_1	魔界-林中秘境	世界の果て ~ World's End / 神話幻想 ~ Infinite Being	Hannari
+Makai_2	魔界-奇花异卉	世界の果て ~ World's End / 神話幻想 ~ Infinite Being	Hannari
+Makai_3	魔界-月暗珠明	世界の果て ~ World's End / 神話幻想 ~ Infinite Being	Hannari
+LunarCapital_1	月都-水中望月	最も澄みわたる空と海	残实
+LunarCapital_2	月都-风起萧瑟	最も澄みわたる空と海	残实
+LunarCapital_3	月都-古往今来	最も澄みわたる空と海 / 無何有の郷 ~ Deep Mountain	残实
+LunarChallenge	破魔的太刀	破邪の小太刀	残实
+FinalChallenge	困兽之斗，天罗地网！	Reincarnation	残实

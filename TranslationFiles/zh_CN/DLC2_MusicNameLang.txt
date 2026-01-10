@@ -1,0 +1,10 @@
+ID	NAME	ORIGINAL	COMPOSEER
+FormerHell_1	旧地狱-阴里寻晴	旧地獄街道を行く	残实
+FormerHell_2	旧地狱-柳暗花明	旧地獄街道を行く	残实
+FormerHell_3	旧地狱-万紫千红	旧地獄街道を行く	残实
+EarthSpiritsPalace_1	地灵殿-废狱笙歌	少女さとり ~ 3rd eye / 幽霊客船の時空を越えた旅	Hannari
+EarthSpiritsPalace_2	地灵殿-独舞成影	死体旅行 ~ Be of good cheer! / 少女さとり ~ 3rd eye\nネイティブフェイス	Hannari
+EarthSpiritsPalace_3	地灵殿-众影成卷	少女さとり ~ 3rd eye	Hannari
+WackyCuisineCompetition_1	料理大赛-半忧半喜	ハルトマンの妖怪少女	残实
+WackyCuisineCompetition_2	料理大赛-亦赛亦闹	ハルトマンの妖怪少女	残实
+WackyCuisineCompetition_3	料理大赛-一将功成	ハルトマンの妖怪少女	残实

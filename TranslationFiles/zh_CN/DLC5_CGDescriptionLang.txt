@@ -1,0 +1,8 @@
+ID	Name	Description
+DLC5_LunarCapital	星光洒下的月之城	空
+DLC5_Mima	真理的求道者	空
+DLC5_Mizuchi	噩梦	空
+DLC5_Mystia	米斯蒂娅·萝蕾拉	空
+DLC5_Concert_LunarCapital	月都应援团	空
+DLC5_Concert_Makai	魔界应援团	空
+DLC5_ConcertFinished	凝梦歌	空

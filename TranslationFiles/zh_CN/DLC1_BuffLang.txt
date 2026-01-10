@@ -1,0 +1,8 @@
+EnumId	Name	Description
+Skill_Momizi_Reward	例行小酌	将会有大量$a顾客前来就餐，剩余$b秒
+Skill_Momizi_Punishment	戒严令	禁止任何人前来，剩余$a秒
+NoBuffTime	奇迹禁止！	无法获得任何Buff，剩余$a秒
+PartnerThrowDeliver	延展手臂	河童科技世界第一！伙伴可以借用河童科技远程投掷上菜，剩余$a秒
+Totetsu_Dinner	刚欲·饕餮盛宴	全部顾客只会点最贵的食物和酒水，且这些点单不消耗预算，剩余$a秒
+Boss_Totetsu	强欲之兽	不会受到耐心不减与厨具「夜雀」效果的影响；\n满足订单的同时需要满足额外的2个随机Tag。该Tag每满足尤魔10%的欲望进行刷新；\n耐心耗尽、不满足指定Tag、不满足订单、酒精含量会导致狂暴上升，满值时释放最终惩罚。
+Skill_Narumi_Reward	即席菩提	客人在结账时，额外会支付$a%的小费作为化缘，剩余$b秒

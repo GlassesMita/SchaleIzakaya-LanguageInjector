@@ -1,0 +1,4 @@
+KEY	NAME	DESCRIPTION
+DLC3_MyourenTemple	命莲寺	坐落在村子外围的新寺院。这里一视同仁地接收人类与妖怪信徒，甚至还有曾在地底长驻的妖怪们，可谓是座来者不拒的宗教设施。
+DLC3_DivineSpiritMausoleum	神灵庙	原本位于梦殿大祀庙内部，丰聪耳神子复活后将其迁入自己开辟的仙界中，并在此建造了新的道场。可以通过仙界瞬间转移到幻想乡的任何地点。
+DLC3_HakureiFestival	博丽大祭	N/A

@@ -1,0 +1,13 @@
+ID	NAME	ORIGINAL	COMPOSEER
+MyourenTemple_1	命莲寺-青山绿瓦	春の湊に / 夜雀の歌声 ~ Night Bird / Japanese Saga	Hannari
+MyourenTemple_2	命莲寺-丹书黄卷	春の湊に / 妖怪寺	Hannari
+MyourenTemple_3	命莲寺-古佛新衣	春の湊に / 妖怪寺 / 青空の影	Hannari
+DivineSpiritMausoleum_1	神灵庙-绀碧一隅	デザイアドライブ	残实
+DivineSpiritMausoleum_2	神灵庙-树静风轻	デザイアドライブ	残实
+DivineSpiritMausoleum_3	神灵庙-苔痕皆缘	デザイアドライブ	残实
+MyourenTempleMusicCompetition_1	摇滚大赛-入道之魂	感情の摩天楼 / 時代親父とハイカラ少女 / 夜雀の歌声 ~ Night Bird	Hannari
+MyourenTempleMusicCompetition_2	摇滚大赛-船灵之魂	キャプテン・ムラサ / もう歌しか聞こえない	Hannari
+MyourenTempleMusicCompetition_3	摇滚大赛-虎刹之魂	虎柄の毘沙門天	Hannari
+DivineSpiritMausoleumCookingCompetition_1	国宴大赛-殚精竭虑	聖徳伝説　~ True Administrator / 古きユアンシェン	残实
+DivineSpiritMausoleumCookingCompetition_2	国宴大赛-精雕细琢	聖徳伝説　~ True Administrator / 夢殿大祀廟	残实
+DivineSpiritMausoleumCookingCompetition_3	国宴大赛-超我大成	聖徳伝説　~ True Administrator / 大神神話伝	残实

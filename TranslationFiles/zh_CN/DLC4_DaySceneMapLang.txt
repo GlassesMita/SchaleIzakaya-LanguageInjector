@@ -1,0 +1,4 @@
+KEY	NAME	DESCRIPTION
+DLC4_GardenOfTheSun	太阳花田	位于幻想乡深处有一片黄色、让人目眩的大草原，黄色的正体其实是一大片向日葵，所以这里也被称为太阳花田。妖精们尤其喜欢在这片花田玩耍，来访时要小心别成为妖精的游戏内容。
+DLC4_ShiningNeedleCastle	辉针城	漂浮于幻想乡上空的逆城，城主是一寸法师的后裔，少名针妙丸。本该是小人族的城池，如今却到处都是不良在活动，整座城变得更加不伦不类……
+DLC4_ScarletMansionBasement	红魔馆地下室	空 
