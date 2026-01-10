@@ -113,32 +113,7 @@ namespace SchaleIzakaya.LanguageInjector.Patches
             }
         }
 
-        // 方法4: 拦截对象转字符串
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(UnityEngine.Object), "ToString")]
-        static void ObjectToStringPostfix(ref string __result)
-        {
-            if (!Plugin.EnableCustomLanguage.Value || string.IsNullOrEmpty(__result))
-                return;
-
-            // 特别检查 "祝您玩的开心！"
-            if (__result == "祝您玩的开心！")
-            {
-                __result = "祝君游之畅！";
-                Plugin.Logger.LogInfo($"[ObjectToString] Special replacement: '祝您玩的开心！' -> '祝君游之畅！'");
-                return;
-            }
-
-            string original = __result;
-            __result = ProcessFinalText(__result);
-            
-            if (original != __result)
-            {
-                Plugin.Logger.LogInfo($"[ObjectToString] Replaced: '{original}' -> '{__result}'");
-            }
-        }
-
-        // 方法5: 拦截字符串替换操作
+        // 方法4: 拦截字符串替换操作
         [HarmonyPostfix]
         [HarmonyPatch(typeof(string), "Replace", new Type[] { typeof(string), typeof(string) })]
         static void StringReplacePostfix(ref string __result, string oldValue, string newValue)
@@ -163,7 +138,7 @@ namespace SchaleIzakaya.LanguageInjector.Patches
             }
         }
 
-        // 方法6: 拦截调试日志（用于监控）
+        // 方法5: 拦截调试日志（用于监控）
         [HarmonyPostfix]
         [HarmonyPatch(typeof(UnityEngine.Debug), "Log", new Type[] { typeof(object) })]
         static void DebugLogPostfix(object message)

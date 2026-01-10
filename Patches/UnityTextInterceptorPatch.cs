@@ -111,23 +111,6 @@ namespace SchaleIzakaya.LanguageInjector.Patches
             return true;
         }
 
-        // 拦截所有可能的文本显示方法
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(UnityEngine.Object), "ToString")]
-        static void ObjectToStringPostfix(ref string __result)
-        {
-            if (!Plugin.EnableCustomLanguage.Value || string.IsNullOrEmpty(__result))
-                return;
-
-            string original = __result;
-            __result = ProcessText(__result);
-            
-            if (original != __result)
-            {
-                Plugin.Logger.LogDebug($"[ObjectToString] Replaced: {original} -> {__result}");
-            }
-        }
-
         // 添加一个特殊的补丁来拦截 "祝您玩的开心！"
         [HarmonyPostfix]
         [HarmonyPatch(typeof(string), "Concat", new Type[] { typeof(string), typeof(string) })]
@@ -140,7 +123,7 @@ namespace SchaleIzakaya.LanguageInjector.Patches
             if (__result == "祝您玩的开心！")
             {
                 __result = "祝君游之畅！";
-                Plugin.Logger.LogInfo($"[StringConcat] Special replacement: 祝您玩的开心！ -> 祝君游之畅！");
+                Plugin.Logger.LogInfo($"[StringConcat] Special replacement: '祝您玩的开心！' -> '祝君游之畅！'");
                 return;
             }
 
@@ -164,7 +147,7 @@ namespace SchaleIzakaya.LanguageInjector.Patches
             if (__result == "祝您玩的开心！")
             {
                 __result = "祝君游之畅！";
-                Plugin.Logger.LogInfo($"[StringConcatArray] Special replacement: 祝您玩的开心！ -> 祝君游之畅！");
+                Plugin.Logger.LogInfo($"[StringConcatArray] Special replacement: '祝您玩的开心！' -> '祝君游之畅！'");
                 return;
             }
 
