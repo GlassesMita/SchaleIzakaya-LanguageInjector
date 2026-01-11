@@ -130,5 +130,30 @@ namespace SchaleIzakaya.LanguageInjector
 
             return null;
         }
+
+        public static string ReplaceText(string text)
+        {
+            if (string.IsNullOrEmpty(text) || !EnableCustomLanguage.Value)
+            {
+                return text;
+            }
+
+            string original = text;
+            
+            foreach (var kvp in customTranslations)
+            {
+                if (text.Contains(kvp.Key))
+                {
+                    text = text.Replace(kvp.Key, kvp.Value);
+                }
+            }
+
+            if (original != text)
+            {
+                Logger.LogInfo($"Replaced: '{original}' -> '{text}'");
+            }
+
+            return text;
+        }
     }
 }
