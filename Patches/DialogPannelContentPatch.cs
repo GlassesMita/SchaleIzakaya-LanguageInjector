@@ -6,13 +6,13 @@ using SchaleIzakaya.LanguageInjector.Models;
 namespace SchaleIzakaya.LanguageInjector.Patches
 {
     [HarmonyPatch]
-    public class TextMeshProTextPatch
+    public class DialogPannelContentPatch
     {
         private static HashSet<string> processedTexts = new HashSet<string>();
 
         [HarmonyPostfix]
-        [HarmonyPatch(typeof(TMPro.TextMeshProUGUI), "set_text")]
-        static void TextMeshProSetterPostfix(TMPro.TextMeshProUGUI __instance, ref string value)
+        [HarmonyPatch(typeof(Common.DialogUtility.DialogPannel), "SetContent")]
+        static void SetContentPostfix(ref string value)
         {
             if (!Plugin.EnableCustomLanguage.Value || string.IsNullOrEmpty(value) || processedTexts.Contains(value))
                 return;
@@ -22,7 +22,24 @@ namespace SchaleIzakaya.LanguageInjector.Patches
             
             if (original != value)
             {
-                Plugin.Logger.LogInfo($"[TextMeshPro] Replaced: '{original}' -> '{value}'");
+                Plugin.Logger.LogInfo($"[DialogPannel.SetContent] Replaced: '{original}' -> '{value}'");
+                processedTexts.Add(value);
+            }
+        }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Common.DialogUtility.DialogPannel), "AddContent")]
+        static void AddContentPostfix(ref string value)
+        {
+            if (!Plugin.EnableCustomLanguage.Value || string.IsNullOrEmpty(value) || processedTexts.Contains(value))
+                return;
+
+            string original = value;
+            value = ReplaceText(value);
+            
+            if (original != value)
+            {
+                Plugin.Logger.LogInfo($"[DialogPannel.AddContent] Replaced: '{original}' -> '{value}'");
                 processedTexts.Add(value);
             }
         }
