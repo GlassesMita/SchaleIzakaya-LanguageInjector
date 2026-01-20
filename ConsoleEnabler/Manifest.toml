@@ -1,0 +1,39 @@
+[Mod]
+Name = "SchaleIzakaya Console Enabler"
+Version = "1.0.0"
+VersionCode = 1
+Author = "GlassesMita"
+UniqueId = "SchaleIzakaya.ConsoleEnabler"
+Description = "启用 EA Debug Console（游戏内部调试控制台）"
+Link = "https://github.com/GlassesMita/SchaleIzakaya-LanguageInjector"
+
+[Mod.Custom]
+
+[Mod.Dependencies]
+
+[Mod.OptionalDependencies]
+
+[Mod.IncompatibleWith]
+
+[Mod.IncludePDB] = true
+
+[Mod.GameVersion]
+MinimumGameVersion = "1.0.0"
+MaximumGameVersion = "2.0.0"
+
+[Mod.Tags]
+Tags = ["功能扩展", "游戏内容", "调试工具"]
+
+[Mod.License]
+License = "MIT"
+
+[Mod.UpdateUrl]
+UpdateUrl = "https://api.github.com/repos/GlassesMita/SchaleIzakaya-LanguageInjector/releases/latest"
+
+[Mod.Icon]
+Icon = "icon.png"
+
+[Mod.EnabledByDefault]
+EnabledByDefault = true
+
+[Mod.Custom]

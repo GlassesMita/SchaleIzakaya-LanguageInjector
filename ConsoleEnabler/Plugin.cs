@@ -6,13 +6,13 @@ using HarmonyLib;
 using System;
 using System.Reflection;
 
-namespace ConsoleEnabler
+namespace SchaleIzakaya.ConsoleEnabler
 {
-    [BepInPlugin("com.consoleenabler", "Console Enabler", "1.0.0")]
-    public class ConsoleEnablerPlugin : BasePlugin
+    [BepInPlugin("com.schale.consoleenabler", "SchaleIzakaya Console Enabler", "1.0.0")]
+    public class Plugin : BasePlugin
     {
         internal static ManualLogSource Logger;
-        internal static ConsoleEnablerPlugin Instance;
+        internal static Plugin Instance;
 
         public static ConfigEntry<bool> EnableDebugConsole;
         public static ConfigEntry<bool> ShowConsoleOnStartup;
@@ -22,15 +22,15 @@ namespace ConsoleEnabler
             Instance = this;
             Logger = base.Log;
             
-            Logger.LogInfo($"Console Enabler Plugin is loading!");
+            Logger.LogInfo($"SchaleIzakaya Console Enabler Plugin is loading!");
 
             InitializeConfig();
             EnableDebugConsoleMethod();
 
-            Harmony harmony = new Harmony("com.consoleenabler");
+            Harmony harmony = new Harmony("com.schale.consoleenabler");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
 
-            Logger.LogInfo($"Console Enabler Plugin is loaded!");
+            Logger.LogInfo($"SchaleIzakaya Console Enabler Plugin is loaded!");
         }
 
         private void InitializeConfig()
