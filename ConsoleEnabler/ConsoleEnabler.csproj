@@ -12,7 +12,7 @@
     </RestoreAdditionalProjectSources>
     <RootNamespace>SchaleIzakaya.ConsoleEnabler</RootNamespace>
     <GamePath>F:\SteamLibrary\steamapps\common\Touhou Mystia Izakaya</GamePath>
-    <OutputPath>$(GamePath)\BepInEx\plugins</OutputPath>
+    <OutputPath>$(GamePath)\$(AssemblyName)\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -89,10 +89,18 @@
       <HintPath>$(GamePath)\BepInEx\interop\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Omt.GamePlatformAPI">
+      <HintPath>$(GamePath)\BepInEx\interop\Omt.GamePlatformAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DEYU.AssetHandleUtility">
+      <HintPath>$(GamePath)\BepInEx\interop\DEYU.AssetHandleUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 
   <Target Name="CopyManifest" AfterTargets="Build">
-    <Copy SourceFiles="@(ManifestFiles)" DestinationFolder="$(OutputPath)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(ManifestFiles)" DestinationFolder="$(GamePath)\$(AssemblyName)\" SkipUnchangedFiles="true" />
   </Target>
 
   <ItemGroup>
